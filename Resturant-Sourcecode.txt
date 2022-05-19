@@ -1,0 +1,584 @@
+
+    index.html 
+
+<!doctype html> 
+<html lang="en"> 
+   <head> 
+      <!--    Required meta tags --> 
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, 
+initial-scale=1"> 
+      <style> 
+      </style> 
+      <!--    Bootstrap CSS --> 
+     
+      <!--    Latest  compiled and minified   CSS --> 
+      <link   rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bo
+otstrap.min.css"> 
+ 
+      <!--    jQuery library    --> 
+      <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jque
+ry.min.js"></script> 
+ 
+      <!--    Popper JS --> 
+      <script 
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0
+/umd/popper.min.js"></script> 
+ 
+      <!--    Latest  compiled JavaScript  --> 
+
+
+      <script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/boot
+strap.min.js"></script> 
+ 
+      <body> 
+             <nav class="navbar  navbar-expand navbar-dark bg-
+dark"> 
+                    <a class="navbar-brand"  href="index.html">SMILE 
+Resturant</a> 
+                    <div  class="container-fluid"> 
+                           <div  class="navbar-nav"> 
+                                  <a class="nav-link    active" 
+href="index.html">Home</a> 
+                                  <a class="nav-link" 
+href="form.html">Contact</a> 
+                                  <a class="nav-link" 
+href="page.html">Pagination</a> 
+                                  <a class="nav-link" 
+href="order.html">Order</a>  
+                           </div>    
+                    </div> 
+             </nav> 
+             <br><br> 
+         
+             <div  class="jumbotron"   style="background-color: 
+rgb(47,  0,  255);"> 
+                    <div  class="alert    alert-primary"     role="alert"> 
+                           <div  style="text-align:       center;"> 
+                                  <p class="lead">   Welcome to SMILE 
+Resturant ,   the  
+
+
+crown jewel  of  Savourites  Hospitality  Pvt Ltd  is   a class  
+                                      apart  when it  comes to fine   dining. 
+                                  </p> 
+                           </div> 
+                    </div> 
+             </div> 
+                   Come over, settle  down and take in   the  aroma and 
+feast  on Bengal’s  finest  
+                   recipes,  served  with  an extra   helping  of  care.  If 
+you wish get  a real   taste 
+                    of  history    of  Bengali  cuisine,   look  no further. 
+             <div  class="container"> 
+                    <div  class="row"> 
+                        <div  class="col-sm"  style="text-align: 
+center;"> 
+                           <h1 class="display-4">Hours</h1> 
+                           <p class="lead">Monday-Sunday 8:00am - 
+10:00pm</p> 
+                        </div> 
+                        <div  class="col-sm"  style="text-align: 
+center;"> 
+                           <h1 class="display-4">Our   Specials</h1> 
+                           <p class="lead">Gondhoraj  Chicken</p> 
+                           <p class="lead">Chingri   Malaikari</p> 
+                           <p class="lead">Chicken  Combo</p> 
+                           <p class="lead">Mutton  Combo</p> 
+                        </div> 
+                        <div  class="col-sm"  style="text-align: 
+center;"> 
+                           <h1 class="display-4">Delivery</h1> 
+
+
+                           <p class="lead">Just   let   us  know when you 
+place your  order!</p> 
+                        </div> 
+                    </div> 
+                 </div> 
+ 
+             <div  id="carouselExampleSlidesOnly"  class="carousel-
+inner  mx-auto" role="listbox"     data-ride="carousel" 
+style="width:80%;  height:   700px !important;"> 
+                    <ol  class="carousel-indicators"> 
+                           <li   data-target="#carouselExampleIndicators" 
+data-slide-to="0"    class="active"></li> 
+                           <li   data-target="#carouselExampleIndicators" 
+data-slide-to="1"></li> 
+                           <li   data-target="#carouselExampleIndicators" 
+data-slide-to="2"></li> 
+                    </ol>   
+                    <div  class="carousel-inner"> 
+                        <div  class="carousel-item"> 
+                           <img class="d-block   w-100" 
+src="https://6ballygungeplace.in/wp-
+content/uploads/2018/06/12.jpg"   alt="First     slide"> 
+                        </div> 
+                        <div  class="carousel-item   active"> 
+                           <img class="d-block   w-100" 
+src="https://6ballygungeplace.in/wp-
+content/uploads/2018/02/Generic.png"  alt="Second  slide"> 
+                        </div> 
+                        <div  class="carousel-item"> 
+
+
+                           <img class="d-block   w-100" 
+src="https://6ballygungeplace.in/wp-
+content/uploads/2018/02/Ilish.png"     alt="Third    slide"> 
+                        </div> 
+                        <div  class="carousel-item"> 
+                           <img class="d-block   w-100" 
+src="https://6ballygungeplace.in/wp-
+content/uploads/2018/06/9.jpg"    alt="Fourth   slide"> 
+                        </div> 
+                        <div  class="carousel-item"> 
+                           <img class="d-block   w-100" 
+src="https://6ballygungeplace.in/wp-
+content/uploads/2018/06/3.jpg"    alt="Fifth     slide"> 
+                        </div> 
+                    </div> 
+ 
+             </div> 
+             <br> 
+             <br> 
+             <div  style="text-align:       center;"   class="w-50  mx-
+auto"> 
+                    <div  class="card  text-center"> 
+                           <div  class="card-header"> 
+                           <h1 class="display-4">Featured</h1> 
+                           </div> 
+                           <div  class="card-body"> 
+                           <h5 class="card-title">Check    out  our 
+menu</h5> 
+                           <p class="card-text">With    pictures   as well 
+as our  specials.</p> 
+
+
+                           <a href="menu.html"  class="btn  btn-primary 
+btn-lg   btn-block"   role="button"   aria-pressed="true">View   our 
+Menu!</a> 
+                           </div> 
+                           <div  class="card-footer    text-muted"> 
+                           updated 1 day  ago 
+                           </div> 
+                    </div> 
+                    <br>    
+             </div> 
+             <br> 
+             <br> 
+      </body> 
+</html> 
+   
+----------------------------------------------------------------------------------   
+
+form.html 
+
+<!doctype  html> 
+<html  lang="en"> 
+   <head> 
+       <!--    Required  meta tags   --> 
+       <meta charset="utf-8"> 
+       <meta name="viewport"   content="width=device-width, 
+initial-scale=1"> 
+       <style> 
+       </style> 
+       <!--    Bootstrap   CSS --> 
+       <link    rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/cs
+s/bootstrap.min.css"      integrity="sha384-
+
+
+Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/
+dAiS6JXm" crossorigin="anonymous">  </head> 
+       <script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/
+bootstrap.min.js"></script> 
+ 
+       <body> 
+             <nav class="navbar  navbar-expand navbar-dark bg-
+dark"> 
+                    <a  class="navbar-brand" 
+href="index.html">SMILE Resturant</a> 
+                    <div  class="container-fluid" 
+style="background-color:    rgb(172,  59,  164);"> 
+                           <div   class="navbar-nav"> 
+                                  <a  class="nav-link    active" 
+href="index.html">Home</a> 
+                                  <a  class="nav-link" 
+href="form.html">Contact</a> 
+                                  <a  class="nav-link" 
+href="page.html">Pagination</a>  
+                                  <a  class="nav-link" 
+href="order.html">Order</a> 
+                           </div>    
+                    </div> 
+             </nav> 
+             <br><br> 
+         
+             <div   class="d-flex    justify-content-center"> 
+                    <div  class="w-75  p-3"> 
+                           <div   class="jumbotron  jumbotron-fluid" 
+style="background-color:    rgb(218,  106,  149);"> 
+
+
+                                     <div> 
+                                            <h1 class="display-4" 
+style="text-align:        center;">Contact     Us</h1> 
+                                            <form  class="w-50   mx-auto"> 
+                                                   <div   class="form-group"> 
+                                                   <label 
+for="exampleFormControlInput1">How   can we contact 
+you?</label> 
+                                                   <input    type="email" 
+class="form-control"      id="exampleFormControlInput1" 
+placeholder="name@example.com"> 
+                                                   </div> 
+                                                   <div   class="form-group"> 
+                                                   <label 
+for="exampleFormControlSelect1">How   would you  rate   your 
+experience?</label> 
+                                                   <select    class="form-control" 
+id="exampleFormControlSelect1"> 
+                                                           <option>1</option> 
+                                                           <option>2</option> 
+                                                           <option>3</option> 
+                                                           <option>4</option> 
+                                                           <option>5</option> 
+                                                   </select> 
+                                                   </div> 
+                                                   <div   class="form-group"> 
+                                                   <label 
+for="exampleFormControlTextarea1">Additional 
+Feedback?</label> 
+
+
+                                                <textarea   class="form-
+control"   id="exampleFormControlTextarea1" 
+rows="3"></textarea> 
+                                                </div> 
+                                                <div  class="form-group" 
+style="text-align:      center;"> 
+                                                       <button  type="submit" 
+class="btn  btn-primary" 
+onclick="myFunction()">Enter</button> 
+                                                </div> 
+                                         </form> 
+                                  </div> 
+                           </div> 
+                    </div> 
+             </div> 
+ 
+             <script> 
+                    function    myFunction() { 
+                        alert("Feedback   Sent!"); 
+                    } 
+             </script> 
+       </body> 
+</html> 
+------------------------------------------------------------------------------------   
+
+menu.html 
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   
+   <meta charset="utf-8"> 
+
+
+   <meta name="viewport" content="width=device-width, 
+initial-scale=1"> 
+ 
+
+   <link   rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/cs
+s/bootstrap.min.css"    integrity="sha384-
+Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/
+dAiS6JXm" crossorigin="anonymous">  </head> 
+ 
+       <script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-
+beta2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-
+b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU
+5S9FOnJ0" crossorigin="anonymous"></script> 
+       <script   src="https://code.jquery.com/jquery-
+3.3.2.slim.min.js"      integrity="sha384-
+q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE
+1Pi6jizo"   crossorigin="anonymous"></script> 
+ 
+
+</head> 
+<body> 
+       <nav class="navbar navbar-expand navbar-dark bg-
+dark"> 
+             <a  class="navbar-brand"  href="index.html">SMILE 
+Resturant</a> 
+             <div   class="container-fluid"      style="background-
+color:   rgba(6,   42, 199,  0.74);"> 
+                    <div  class="navbar-nav"> 
+
+
+                           <a  class="nav-link    active" 
+href="index.html">Home</a> 
+                           <a  class="nav-link" 
+href="form.html">Contact</a> 
+                           <a  class="nav-link" 
+href="page.html">Pagination</a>  
+                           <a  class="nav-link" 
+href="order.html">Order</a> 
+                    </div>    
+             </div> 
+       </nav> 
+       <br><br> 
+       <div  class="d-flex    justify-content-center"> 
+             <div   class="w-75 p-3"> 
+                    <div  class="jumbotron   jumbotron-fluid" 
+style="text-align:      center;"    > 
+                           <h1 class="display-4"     style="text-align: 
+center;">Menu</h1> 
+ 
+                           <div><img 
+src="https://6ballygungeplace.in/wp-
+content/uploads/gp_emenu/1633082732/1.jpg" alt="First 
+slide"></div> 
+                           <br> 
+                           <div><img src=" 
+https://6ballygungeplace.in/wp-
+content/uploads/gp_emenu/1649669076/2.jpg" alt="First 
+slide"></div> 
+                           <br> 
+                           <div><img 
+src="https://6ballygungeplace.in/wp-
+
+
+content/uploads/gp_emenu/1649669076/3.jpg" alt="First 
+slide"></div> 
+                           <br> 
+                           <div><img src=" 
+https://6ballygungeplace.in/wp-
+content/uploads/gp_emenu/1649669076/4.jpg" alt="First 
+slide"></div> 
+                           <br> 
+                           <h1 class="display-4"     style="text-align: 
+center;"   style   = "background-color:    aqua;">Specials</h1> 
+                           <br> 
+                           <p  class="lead">Kaju  Kismis  Pulao</p> 
+                           <p  class="lead">Gondhoraj Chicken</p> 
+                           <p  class="lead">Baked Mihidana With 
+Rabdi</p> 
+                           <p  class="lead">Nolengurer  Ice  Cream</p> 
+                    </div> 
+             </div> 
+       </div> 
+ 
+</body> 
+</html> 
+----------------------------------------------------------------------------------   
+
+order.html 
+
+<!doctype html> 
+<html lang="en"> 
+   <head> 
+       <!--   Required meta tags --> 
+       <meta charset="utf-8"> 
+
+
+       <meta name="viewport" content="width=device-width, 
+initial-scale=1"> 
+       <style> 
+       </style> 
+       <!--   Bootstrap  CSS --> 
+       <link  rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/cs
+s/bootstrap.min.css"    integrity="sha384-
+Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/
+dAiS6JXm" crossorigin="anonymous">  </head> 
+       <script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/
+bootstrap.min.js"></script> 
+ 
+       <body> 
+             <nav class="navbar  navbar-expand navbar-dark bg-
+dark"> 
+                    <a  class="navbar-brand" 
+href="index.html">SMILE Resturant</a> 
+                    <div  class="container-fluid"> 
+                           <div   class="navbar-nav"> 
+                                  <a  class="nav-link    active" 
+href="index.html">Home</a> 
+                                  <a  class="nav-link" 
+href="form.html">Contact</a> 
+                                  <a  class="nav-link" 
+href="page.html">Pagination</a>  
+                                  <a  class="nav-link" 
+href="order.html">Order</a> 
+                           </div>    
+                    </div> 
+
+
+             </nav> 
+             <br><br> 
+         
+             <div   class="d-flex    justify-content-center"> 
+                    <div  class="w-75  p-3"> 
+                           <div   class="jumbotron  jumbotron-fluid" 
+style="background-color:    chartreuse;"> 
+                                  <div> 
+                                         <h1 class="display-4" 
+style="text-align:      center;">Order   Here</h1> 
+                                         <form  class="w-50 mx-auto"> 
+                                                <div  class="form-group"> 
+                                                <label 
+for="exampleFormControlInput1">What is your 
+name?</label> 
+                                                <input   type="text" 
+class="form-control"    id="exa"   placeholder="Name"> 
+                                                </div> 
+                                                <div  class="form-group"> 
+                                                <label 
+for="exampleFormControlSelect1">Waht would you like  to 
+order</label> 
+                                                <select   class="form-control" 
+id="exampleFormControlSelect1"> 
+                                                       <option>Kaju  Kismis 
+Pulao</option> 
+                                                       <option>Gondhoraj 
+Chicken</option> 
+                                                       <option>Chingri 
+Malaikari</option> 
+
+                                                           <option>Baked  Mihidana 
+With  Rabdi</option> 
+                                                           <option>Nolengurer   Ice 
+Cream</option> 
+                                                           <option>Veg 
+Combo</option> 
+                                                           <option>Fish 
+Combo</option> 
+                                                           <option>Chicken 
+Combo</option> 
+                                                           <option>Mutton 
+Combo</option> 
+                                                   </select> 
+                                                   </div> 
+                                                   <div   class="form-group"> 
+                                                           <label 
+for="exampleFormControlInput1">Quantity?</label> 
+                                                           <input   type="text" 
+class="form-control"      id="exa"    placeholder="Number"> 
+                                                           </div> 
+                                                   <div   class="form-group"> 
+                                                   <label 
+for="exampleFormControlTextarea1">Special 
+Requests?</label> 
+                                                   <textarea    class="form-
+control"    id="exampleFormControlTextarea1" 
+rows="3"></textarea> 
+                                                   </div> 
+                                                   <div   class="form-group" 
+style="text-align:        center;"> 
+
+
+                                                       <button  type="submit" 
+class="btn  btn-primary" 
+onclick="myFunction2()">Enter</button> 
+                                                </div> 
+                                         </form> 
+                                  </div> 
+                           </div> 
+                    </div> 
+             </div> 
+ 
+             <script> 
+                    function    myFunction2() { 
+                        alert("Order    Sent!"); 
+                    } 
+             </script> 
+       </body> 
+</html> 
+------------------------------------------------------------------------------------  
+
+page.html 
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device-width, 
+initial-scale=1"> 
+ 
+
+   <link   rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/cs
+
+
+s/bootstrap.min.css"    integrity="sha384-
+Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/
+dAiS6JXm" crossorigin="anonymous">  </head> 
+ 
+       <script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-
+beta2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-
+b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU
+5S9FOnJ0" crossorigin="anonymous"></script> 
+       <script   src="https://code.jquery.com/jquery-
+3.3.2.slim.min.js"      integrity="sha384-
+q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE
+1Pi6jizo"   crossorigin="anonymous"></script> 
+ 
+
+</head> 
+<body> 
+       <nav class="navbar navbar-expand navbar-dark bg-
+dark"> 
+             <a  class="navbar-brand"  href="index.html">SMILE 
+Resturant</a> 
+             <div   class="container-fluid"> 
+                    <div  class="navbar-nav"> 
+                           <a  class="nav-link    active" 
+href="index.html">Home</a> 
+                           <a  class="nav-link" 
+href="form.html">Contact</a> 
+                           <a  class="nav-link" 
+href="page.html">Pagination</a>  
+                           <a  class="nav-link" 
+href="order.html">Order</a> 
+
+
+                    </div>    
+             </div> 
+       </nav> 
+       <br><br> 
+       <div  class="d-flex    justify-content-center"> 
+             <div   class="w-75 p-3"> 
+                    <div  class="jumbotron   jumbotron-fluid" 
+style="text-align:      center;"> 
+                           <p>You can click   the  buttons  below to 
+access all   the  pages.</p> 
+                           <nav aria-label="Pagination     Demo"> 
+                           <ul   class="pagination"> 
+                                  <li    class="page-item"><a 
+class="page-link"   href="#">Previous</a></li> 
+                                  <li    class="page-item"><a 
+class="page-link"   href="index.html">1</a></li> 
+                                  <li    class="page-item"><a 
+class="page-link"   href="form.html">2</a></li> 
+                                  <li    class="page-item"><a 
+class="page-link"   href="menu.html">3</a></li> 
+                                  <li    class="page-item"><a 
+class="page-link"   href="#">Next</a></li> 
+                           </ul> 
+                           </nav> 
+                    </div> 
+             </div> 
+       </div> 
+</body> 
+</html>
+
